@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome | G-School Intranet</title>
+    <link rel="stylesheet" href="../assets/css/application_alx.css" />
+    <link rel="stylesheet" href="../assets/css/a11y-fixes.css" />
+    <link rel="stylesheet" href="../assets/css/assistant-pages.css" />
+  </head>
+  <body class="bg-body-tertiary" data-page="dashboard-demo">
+    <a class="alx-skip" href="#content">Skip to main content</a>
+    <header class="demo-header">
+      <a class="demo-logo" href="../index.html"
+        ><img
+          src="../assets/img/holberton-logo-full-alx.png"
+          alt="ALX home"
+          width="100"
+      /></a>
+      <nav aria-label="Main">
+        <a href="../index.html">Home</a>
+        <a href="signup.html">Sign up</a>
+        <a href="enroll.html">Enrol</a>
+        <a href="dashboard-demo.html" aria-current="page">My dashboard</a>
+      </nav>
+    </header>
+    <main id="content" tabindex="-1" class="demo-main">
+      <p class="demo-eyebrow">ALX learner demo</p>
+      <h1>Welcome</h1>
+      <div id="error-summary" class="demo-errors" tabindex="-1" hidden>
+        <h2>Please fix these problems</h2>
+        <ul></ul>
+      </div>
+      <p id="need-signin" class="demo-card" hidden>
+        Please create an account first. <a href="signup.html">Create account</a>
+      </p>
+      <section class="demo-card" aria-labelledby="my-courses">
+        <h2 id="my-courses">My courses</h2>
+        <p id="dashboard-status" role="status">Loading your courses…</p>
+        <ul id="enrolments" class="course-list"></ul>
+        <p id="empty-enrolments" hidden>
+          You have no enrolments yet. <a href="enroll.html">Choose a course</a>
+        </p>
+      </section>
+      <section class="demo-card" aria-labelledby="explore-pages">
+        <h2 id="explore-pages">Explore the learner pages</h2>
+        <ul class="demo-links">
+          <li><a href="homepage-v1-paced.html">Paced learner dashboard</a></li>
+          <li>
+            <a href="homepage-v1-self-paced.html"
+              >Self-paced learner dashboard</a
+            >
+          </li>
+          <li>
+            <a href="concept-with-navigation.html"
+              >The Future of the VA Industry</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="demo-footer">
+      Demo only. Registration and enrolment are simulated. Please use dummy
+      details.
+    </footer>
+    <script src="../assets/js/assistant-pages.js" defer></script>
+    <script src="http://localhost:3000/widget/assistant.v1.js" defer></script>
+    <alx-assistant
+      api="http://localhost:3000/api/v1"
+      language="auto"
+    ></alx-assistant>
+  </body>
+</html>

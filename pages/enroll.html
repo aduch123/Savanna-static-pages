@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Enrol | G-School Intranet</title>
+    <link rel="stylesheet" href="../assets/css/application_alx.css" />
+    <link rel="stylesheet" href="../assets/css/a11y-fixes.css" />
+    <link rel="stylesheet" href="../assets/css/assistant-pages.css" />
+  </head>
+  <body class="bg-body-tertiary" data-page="enroll">
+    <a class="alx-skip" href="#content">Skip to main content</a>
+    <header class="demo-header">
+      <a class="demo-logo" href="../index.html"
+        ><img
+          src="../assets/img/holberton-logo-full-alx.png"
+          alt="ALX home"
+          width="100"
+      /></a>
+      <nav aria-label="Main">
+        <a href="../index.html">Home</a>
+        <a href="signup.html">Sign up</a>
+        <a href="enroll.html" aria-current="page">Enrol</a>
+        <a href="dashboard-demo.html">My dashboard</a>
+      </nav>
+    </header>
+    <main id="content" tabindex="-1" class="demo-main">
+      <p class="demo-eyebrow">ALX learner demo</p>
+      <h1>Enrol</h1>
+      <div id="error-summary" class="demo-errors" tabindex="-1" hidden>
+        <h2>Please fix these problems</h2>
+        <ul></ul>
+      </div>
+      <p>
+        Choose your next course. Your session stays in this browser tab; a new
+        tab may need a new sign-in.
+      </p>
+      <p id="need-signin" class="demo-card" hidden>
+        Please create an account first. <a href="signup.html">Create account</a>
+      </p>
+      <form id="enroll-form" method="post" novalidate class="demo-card" hidden>
+        <div class="demo-field">
+          <label for="courseCode">Course</label>
+          <select id="courseCode" name="courseCode" required disabled>
+            <option value="">Loading courses…</option>
+          </select>
+          <p id="err-courseCode" class="field-error" hidden></p>
+        </div>
+        <div id="course-details" aria-live="polite" aria-atomic="true"></div>
+        <button type="submit" class="demo-primary" disabled>
+          Enrol in this course
+        </button>
+        <p class="form-status" role="status"></p>
+      </form>
+      <section
+        id="enroll-success"
+        class="demo-card"
+        hidden
+        aria-labelledby="enroll-success-title"
+      >
+        <h2 id="enroll-success-title" tabindex="-1">Enrolment saved</h2>
+        <p></p>
+        <a href="dashboard-demo.html">Go to my dashboard</a>
+      </section>
+    </main>
+    <footer class="demo-footer">
+      Demo only. Registration and enrolment are simulated. Please use dummy
+      details.
+    </footer>
+    <script src="../assets/js/assistant-pages.js" defer></script>
+    <script src="http://localhost:3000/widget/assistant.v1.js" defer></script>
+    <alx-assistant
+      api="http://localhost:3000/api/v1"
+      language="auto"
+    ></alx-assistant>
+  </body>
+</html>

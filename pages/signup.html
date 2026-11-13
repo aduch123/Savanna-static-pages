@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign up | G-School Intranet</title>
+    <link rel="stylesheet" href="../assets/css/application_alx.css" />
+    <link rel="stylesheet" href="../assets/css/a11y-fixes.css" />
+    <link rel="stylesheet" href="../assets/css/assistant-pages.css" />
+  </head>
+  <body class="bg-body-tertiary" data-page="signup">
+    <a class="alx-skip" href="#content">Skip to main content</a>
+    <header class="demo-header">
+      <a class="demo-logo" href="../index.html"
+        ><img
+          src="../assets/img/holberton-logo-full-alx.png"
+          alt="ALX home"
+          width="100"
+      /></a>
+      <nav aria-label="Main">
+        <a href="../index.html">Home</a>
+        <a href="signup.html" aria-current="page">Sign up</a>
+        <a href="enroll.html">Enrol</a>
+        <a href="dashboard-demo.html">My dashboard</a>
+      </nav>
+    </header>
+    <main id="content" tabindex="-1" class="demo-main">
+      <p class="demo-eyebrow">ALX learner demo</p>
+      <h1>Sign up</h1>
+      <div id="error-summary" class="demo-errors" tabindex="-1" hidden>
+        <h2>Please fix these problems</h2>
+        <ul></ul>
+      </div>
+      <p>Create a demo account to choose a course and try the assistant.</p>
+      <form id="signup-form" method="post" novalidate class="demo-card">
+        <div class="demo-field">
+          <label for="name">Full name</label>
+          <input
+            id="name"
+            name="name"
+            autocomplete="name"
+            maxlength="80"
+            required
+          />
+          <p id="err-name" class="field-error" hidden></p>
+        </div>
+        <div class="demo-field">
+          <label for="email">Email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+          />
+          <p id="err-email" class="field-error" hidden></p>
+        </div>
+        <div class="demo-field">
+          <label for="password">Password</label>
+          <p id="password-hint">At least 8 characters. Pasting is allowed.</p>
+          <div class="password-row">
+            <input
+              id="password"
+              name="password"
+              type="password"
+              autocomplete="new-password"
+              minlength="8"
+              maxlength="72"
+              required
+              aria-describedby="password-hint"
+              data-alx-private
+            />
+            <button
+              id="toggle-password"
+              type="button"
+              aria-pressed="false"
+              aria-controls="password"
+            >
+              Show password
+            </button>
+          </div>
+          <p id="err-password" class="field-error" hidden></p>
+        </div>
+        <div class="demo-field">
+          <label for="preferredLang">Preferred language</label>
+          <select id="preferredLang" name="preferredLang">
+            <option value="en">English</option>
+            <option value="am" lang="am">አማርኛ</option>
+          </select>
+          <p id="err-preferredLang" class="field-error" hidden></p>
+        </div>
+        <button type="submit" class="demo-primary">Create account</button>
+        <p class="form-status" role="status"></p>
+      </form>
+      <section
+        id="signup-success"
+        class="demo-card"
+        hidden
+        aria-labelledby="signup-success-title"
+      >
+        <h2 id="signup-success-title" tabindex="-1">Account created</h2>
+        <p>
+          Your demo account is ready. Keep using this tab to retain your
+          session.
+        </p>
+        <a href="dashboard-demo.html">Go to my dashboard</a>
+      </section>
+    </main>
+    <footer class="demo-footer">
+      Demo only. Registration and enrolment are simulated. Please use dummy
+      details.
+    </footer>
+    <script src="../assets/js/assistant-pages.js" defer></script>
+    <script src="http://localhost:3000/widget/assistant.v1.js" defer></script>
+    <alx-assistant
+      api="http://localhost:3000/api/v1"
+      language="auto"
+    ></alx-assistant>
+  </body>
+</html>

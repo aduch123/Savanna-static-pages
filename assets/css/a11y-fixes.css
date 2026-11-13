@@ -1,0 +1,15 @@
+/* WCAG 2.4.1: the skip link is the first focusable control. */
+.alx-skip {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 2000;
+  transform: translateY(-200%);
+  padding: 0.75rem 1rem;
+  background: #fff;
+  color: #0b3d91;
+  border: 2px solid #0b3d91;
+}
+.alx-skip:focus {
+  transform: none;
+}
