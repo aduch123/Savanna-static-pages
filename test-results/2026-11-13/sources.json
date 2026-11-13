@@ -1,0 +1,18 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "Savanna-static-pages/index.html": "ee6e8857a9b408e9ee7c6d68ec2ef8d8f0d12cee9ac9ca200d3a89761d0180bc",
+    "Savanna-static-pages/pages/homepage-v1-paced.html": "3c33081b4fa1e2049d93c610ee05251b50cc8057f6cabaefbbacaaed51f4610e",
+    "Savanna-static-pages/pages/homepage-v1-self-paced.html": "2859b9986bff9db4b801e1df6e6cd732519c7ba99674b37ef0cbe89fb8e89cc2",
+    "Savanna-static-pages/pages/concept-with-navigation.html": "f9223ce57cd03e23da0bbfe7b5d4afdea95521f15e822fa898535ec5afb4b127",
+    "Savanna-static-pages/pages/signup.html": "927a80019f69c01f2eb114437d5004f6a4c44f3041e849b478f9b2832b35ca2a",
+    "Savanna-static-pages/pages/login.html": "b6ee70d973217af3a320eb63fc292620cd454e98414e8da76f131243d946a259",
+    "Savanna-static-pages/pages/enroll.html": "55b6e6a128793b5742bce8da22af6464555d27d294ec353961cee01b1d2ac36f",
+    "Savanna-static-pages/pages/dashboard-demo.html": "0d33ff832a93eeb4bb7bf5e449fadc4c918d19dd772bfafda8ceb1abd9a7ac87",
+    "Savanna-static-pages/assets/css/a11y-fixes.css": "9901a6ff10ec66bfcc871aad1e5484900a98735e9836913126110afe33f2d836",
+    "Savanna-static-pages/assets/css/assistant-pages.css": "2c704051bb9145afd03efce78ecdeff64fdb96c0afea530c5827b9ba7b119a6f",
+    "Savanna-static-pages/assets/js/static-page.js": "bc23cde698a9ada31793a9b8c5da6dbffc4dd02c14c2be817ef6940542daa8fc",
+    "Savanna-static-pages/assets/js/assistant-pages.js": "eb63430ade67a1ed261004ac5bc85b682b5144e4b8c0213a09838d933fa375d4",
+    "alx-assistant-api/public/widget/assistant.v1.js": "db66be618bfd911fd6c75e3964da4d5f18699fa169dd6dbf19099bd3c20fb075"
+  }
+}

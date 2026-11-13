@@ -1,0 +1,1641 @@
+{
+  "at": "2026-11-13T14:49:44.903Z",
+  "fixture": "Offline API, real page/widget DOM; desktop only",
+  "reports": [
+    {
+      "page": "index.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "a[href$=\"homepage-v1-paced.html\"]"
+                  ],
+                  "html": "<a href=\"pages/homepage-v1-paced.html\">Learner homepage — v1 paced</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 13.1pt (17.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".card:nth-child(2) > .card-body > .h5.card-title > a"
+                  ],
+                  "html": "<a href=\"pages/homepage-v1-self-paced.html\">Learner homepage — v1 self-paced</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 13.1pt (17.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".card:nth-child(3) > .card-body > .h5.card-title > a"
+                  ],
+                  "html": "<a href=\"pages/concept-with-navigation.html\">Concept page with curriculum navigation</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 13.1pt (17.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[href$=\"signup.html\"]"
+                  ],
+                  "html": "<a href=\"pages/signup.html\">Create account</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #db3e3e, background color: #f8f9fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[href$=\"login.html\"]"
+                  ],
+                  "html": "<a href=\"pages/login.html\">Sign in</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #db3e3e, background color: #f8f9fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[href$=\"enroll.html\"]"
+                  ],
+                  "html": "<a href=\"pages/enroll.html\">Choose a course</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #db3e3e, background color: #f8f9fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[href$=\"dashboard-demo.html\"]"
+                  ],
+                  "html": "<a href=\"pages/dashboard-demo.html\">My dashboard</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #db3e3e, background color: #f8f9fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "code"
+                  ],
+                  "html": "<code>README.md</code>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #d63384, background color: #f8f9fa, font size: 9.2pt (12.25px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            }
+          ],
+          "incomplete": [],
+          "passes": 19
+        },
+        {
+          "state": "open",
+          "violations": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "a[href$=\"homepage-v1-paced.html\"]"
+                  ],
+                  "html": "<a href=\"pages/homepage-v1-paced.html\">Learner homepage — v1 paced</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 13.1pt (17.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".card:nth-child(2) > .card-body > .h5.card-title > a"
+                  ],
+                  "html": "<a href=\"pages/homepage-v1-self-paced.html\">Learner homepage — v1 self-paced</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 13.1pt (17.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".card:nth-child(3) > .card-body > .h5.card-title > a"
+                  ],
+                  "html": "<a href=\"pages/concept-with-navigation.html\">Concept page with curriculum navigation</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 13.1pt (17.5px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[href$=\"signup.html\"]"
+                  ],
+                  "html": "<a href=\"pages/signup.html\">Create account</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #db3e3e, background color: #f8f9fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[href$=\"login.html\"]"
+                  ],
+                  "html": "<a href=\"pages/login.html\">Sign in</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #db3e3e, background color: #f8f9fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[href$=\"enroll.html\"]"
+                  ],
+                  "html": "<a href=\"pages/enroll.html\">Choose a course</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #db3e3e, background color: #f8f9fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[href$=\"dashboard-demo.html\"]"
+                  ],
+                  "html": "<a href=\"pages/dashboard-demo.html\">My dashboard</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #db3e3e, background color: #f8f9fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "code"
+                  ],
+                  "html": "<code>README.md</code>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #d63384, background color: #f8f9fa, font size: 9.2pt (12.25px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            }
+          ],
+          "incomplete": [],
+          "passes": 26
+        }
+      ]
+    },
+    {
+      "page": "pages/homepage-v1-paced.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [
+            {
+              "id": "aria-progressbar-name",
+              "impact": "serious",
+              "help": "ARIA progressbar nodes must have an accessible name",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-progressbar-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".justify-content-between > .flex-column.gap-2.d-flex > .progress.shadow-none > .progress-bar[aria-valuemax=\"100\"][aria-valuemin=\"0\"]"
+                  ],
+                  "html": "<div aria-valuemax=\"100\" aria-valuemin=\"0\" aria-valuenow=\"0.0\" class=\"progress-bar rounded-pill\" role=\"progressbar\" style=\"width: 0%\"></div>",
+                  "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                },
+                {
+                  "target": [
+                    ".py-2 > .flex-column.gap-2.d-flex > .progress.shadow-none > .progress-bar[aria-valuemax=\"100\"][aria-valuemin=\"0\"]"
+                  ],
+                  "html": "<div aria-valuemax=\"100\" aria-valuemin=\"0\" aria-valuenow=\"58.47\" class=\"progress-bar rounded-pill\" role=\"progressbar\" style=\"width: 58.47%\"></div>",
+                  "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "a[data-track-id=\"392\"] > span"
+                  ],
+                  "html": "<span>Week 1</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"396\"] > span"
+                  ],
+                  "html": "<span>Week 5</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"397\"] > span"
+                  ],
+                  "html": "<span>Week 6</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"398\"] > span"
+                  ],
+                  "html": "<span>Week 7</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".border-primary > .card-header.fw-medium.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">Continue where you left off</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-lg-flex.col:nth-child(2) > .border-primary-subtle.card.homepage-card > .card-header.fw-medium.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">Your immediate deliverables</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(1) > .gap-xl-5.gap-3.d-flex > .flex-grow-1 > .col-6.col-lg-12.col-xl-6 > .btn-outline-primary.btn.d-block"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary d-block\" href=\"#\">Resume</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(2) > .gap-xl-5.gap-3.d-flex > .flex-grow-1 > .col-6.col-lg-12.col-xl-6 > .btn-outline-primary.btn.d-block"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary d-block\" href=\"#\">Resume</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-lg-flex.col.flex-grow-1 > .border-primary-subtle.card.homepage-card > .card-header.fw-medium.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">You are busy with</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-lg-flex.col:nth-child(4) > .border-primary-subtle.card.homepage-card > .card-header.fw-medium.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">Your overall progress</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".text-warning"
+                  ],
+                  "html": "<span class=\"fw-semibold text-warning ms-2\">You're slightly behind</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.63 (foreground color: #ffc107, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[data-bs-toggle=\"modal\"]"
+                  ],
+                  "html": "<a data-bs-target=\"#dd9465bce9382bf9a08503eefc7308f7-modal\" data-bs-toggle=\"modal\" type=\"button\" class=\"btn btn-outline-primary d-block\" href=\"#\">See score details</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-lg-flex.col:nth-child(5) > .border-primary-subtle.card.homepage-card > .card-header.fw-medium.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">Your upcoming events</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-lg-flex.col:nth-child(5) > .border-primary-subtle.card.homepage-card > .card-footer > .row-cols-xl-2.gx-3.row > .col > .btn-outline-primary.btn.d-block"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary d-block\" href=\"#\">See all my events</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            },
+            {
+              "id": "link-name",
+              "impact": "serious",
+              "help": "Links must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".logo-container"
+                  ],
+                  "html": "<a class=\"logo-container p-1\" href=\"#\" rel=\"noreferrer\" target=\"\"><div class=\"logo mx-auto\" style=\"background-image: url(&quot;../assets/img/holberton-logo-full-alx.png&quot;)\"></div></a>",
+                  "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "list",
+              "impact": "serious",
+              "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#sidebar > .px-2"
+                  ],
+                  "html": "<ul class=\"px-2\">",
+                  "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: hr"
+                }
+              ]
+            }
+          ],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "a[data-track-id=\"399\"] > span"
+                  ],
+                  "html": "<span>Week 8</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"400\"] > span"
+                  ],
+                  "html": "<span>Week 9</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[aria-current=\"page\"] > span"
+                  ],
+                  "html": "<span>Week 10</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"402\"] > span"
+                  ],
+                  "html": "<span>Week 11</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"403\"] > span"
+                  ],
+                  "html": "<span>Week 12</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"404\"] > span"
+                  ],
+                  "html": "<span>Week 13</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"405\"] > span"
+                  ],
+                  "html": "<span>Week 14</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"406\"] > span"
+                  ],
+                  "html": "<span>Week 15</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    ".gradient-overlay > h5"
+                  ],
+                  "html": "<h5>Intro to Week 10</h5>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                },
+                {
+                  "target": [
+                    ".btn-primary"
+                  ],
+                  "html": "<a class=\"btn btn-primary d-block\" href=\"#\">Resume</a>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(1) > .gap-xl-5.gap-3.d-flex > .flex-column.d-flex.align-items-center > .position-relative > .top-50.start-50.translate-middle"
+                  ],
+                  "html": "<div class=\"position-absolute top-50 start-50 translate-middle fw-semibold\">0%</div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(2) > .gap-xl-5.gap-3.d-flex > .flex-column.d-flex.align-items-center > .position-relative > .top-50.start-50.translate-middle"
+                  ],
+                  "html": "<div class=\"position-absolute top-50 start-50 translate-middle fw-semibold\">0%</div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            }
+          ],
+          "passes": 27
+        },
+        {
+          "state": "open",
+          "violations": [
+            {
+              "id": "aria-progressbar-name",
+              "impact": "serious",
+              "help": "ARIA progressbar nodes must have an accessible name",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-progressbar-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".justify-content-between > .flex-column.gap-2.d-flex > .progress.shadow-none > .progress-bar[aria-valuemax=\"100\"][aria-valuemin=\"0\"]"
+                  ],
+                  "html": "<div aria-valuemax=\"100\" aria-valuemin=\"0\" aria-valuenow=\"0.0\" class=\"progress-bar rounded-pill\" role=\"progressbar\" style=\"width: 0%\"></div>",
+                  "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                },
+                {
+                  "target": [
+                    ".py-2 > .flex-column.gap-2.d-flex > .progress.shadow-none > .progress-bar[aria-valuemax=\"100\"][aria-valuemin=\"0\"]"
+                  ],
+                  "html": "<div aria-valuemax=\"100\" aria-valuemin=\"0\" aria-valuenow=\"58.47\" class=\"progress-bar rounded-pill\" role=\"progressbar\" style=\"width: 58.47%\"></div>",
+                  "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "a[data-track-id=\"397\"] > span"
+                  ],
+                  "html": "<span>Week 6</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"398\"] > span"
+                  ],
+                  "html": "<span>Week 7</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"399\"] > span"
+                  ],
+                  "html": "<span>Week 8</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"400\"] > span"
+                  ],
+                  "html": "<span>Week 9</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[aria-current=\"page\"] > span"
+                  ],
+                  "html": "<span>Week 10</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".border-primary > .card-header.fw-medium.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">Continue where you left off</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-lg-flex.col:nth-child(2) > .border-primary-subtle.card.homepage-card > .card-header.fw-medium.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">Your immediate deliverables</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(1) > .gap-xl-5.gap-3.d-flex > .flex-grow-1 > .col-6.col-lg-12.col-xl-6 > .btn-outline-primary.btn.d-block"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary d-block\" href=\"#\">Resume</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(2) > .gap-xl-5.gap-3.d-flex > .flex-grow-1 > .col-6.col-lg-12.col-xl-6 > .btn-outline-primary.btn.d-block"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary d-block\" href=\"#\">Resume</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-lg-flex.col.flex-grow-1 > .border-primary-subtle.card.homepage-card > .card-header.fw-medium.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">You are busy with</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-lg-flex.col:nth-child(4) > .border-primary-subtle.card.homepage-card > .card-header.fw-medium.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">Your overall progress</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".text-warning"
+                  ],
+                  "html": "<span class=\"fw-semibold text-warning ms-2\">You're slightly behind</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.63 (foreground color: #ffc107, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "a[data-bs-toggle=\"modal\"]"
+                  ],
+                  "html": "<a data-bs-target=\"#dd9465bce9382bf9a08503eefc7308f7-modal\" data-bs-toggle=\"modal\" type=\"button\" class=\"btn btn-outline-primary d-block\" href=\"#\">See score details</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-lg-flex.col:nth-child(5) > .border-primary-subtle.card.homepage-card > .card-header.fw-medium.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">Your upcoming events</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-lg-flex.col:nth-child(5) > .border-primary-subtle.card.homepage-card > .card-footer > .row-cols-xl-2.gx-3.row > .col > .btn-outline-primary.btn.d-block"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary d-block\" href=\"#\">See all my events</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            },
+            {
+              "id": "link-name",
+              "impact": "serious",
+              "help": "Links must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".logo-container"
+                  ],
+                  "html": "<a class=\"logo-container p-1\" href=\"#\" rel=\"noreferrer\" target=\"\"><div class=\"logo mx-auto\" style=\"background-image: url(&quot;../assets/img/holberton-logo-full-alx.png&quot;)\"></div></a>",
+                  "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "list",
+              "impact": "serious",
+              "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#sidebar > .px-2"
+                  ],
+                  "html": "<ul class=\"px-2\">",
+                  "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: hr"
+                }
+              ]
+            }
+          ],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "a[data-track-id=\"394\"] > span"
+                  ],
+                  "html": "<span>Week 3</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"395\"] > span"
+                  ],
+                  "html": "<span>Week 4</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"396\"] > span"
+                  ],
+                  "html": "<span>Week 5</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    ".gradient-overlay > h5"
+                  ],
+                  "html": "<h5>Intro to Week 10</h5>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                },
+                {
+                  "target": [
+                    ".btn-primary"
+                  ],
+                  "html": "<a class=\"btn btn-primary d-block\" href=\"#\">Resume</a>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(1) > .gap-xl-5.gap-3.d-flex > .flex-column.d-flex.align-items-center > .position-relative > .top-50.start-50.translate-middle"
+                  ],
+                  "html": "<div class=\"position-absolute top-50 start-50 translate-middle fw-semibold\">0%</div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(2) > .gap-xl-5.gap-3.d-flex > .flex-column.d-flex.align-items-center > .position-relative > .top-50.start-50.translate-middle"
+                  ],
+                  "html": "<div class=\"position-absolute top-50 start-50 translate-middle fw-semibold\">0%</div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            }
+          ],
+          "passes": 30
+        }
+      ]
+    },
+    {
+      "page": "pages/homepage-v1-self-paced.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [
+            {
+              "id": "aria-progressbar-name",
+              "impact": "serious",
+              "help": "ARIA progressbar nodes must have an accessible name",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-progressbar-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "div[aria-valuemax=\"100\"]"
+                  ],
+                  "html": "<div aria-valuemax=\"100\" aria-valuemin=\"0\" aria-valuenow=\"0.0\" class=\"progress-bar rounded-pill\" role=\"progressbar\" style=\"width: 0%\"></div>",
+                  "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "aria-prohibited-attr",
+              "impact": "serious",
+              "help": "Elements must only use permitted ARIA attributes",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".ms-2"
+                  ],
+                  "html": "<span data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" class=\"ms-2\" aria-label=\"The clock starts at the moment you access your first content of the course.\" data-bs-original-title=\"The clock starts at the moment you access your first content of the course.\">",
+                  "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on \"span\" elements with no valid role attribute."
+                }
+              ]
+            },
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".program-progress-badge"
+                  ],
+                  "html": "<span class=\"align-items-center d-inline-flex fs-sm fw-semibold gap-2 program-progress-badge px-3 py-1 rounded-pill text-nowrap\">\n                <i aria-hidden=\"true\" class=\"fa-solid fa-arrow-trend-up\"></i>\n                0%\n              </span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.31 (foreground color: #db3e3e, background color: #f8d8d8, font size: 9.2pt (12.25px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".btn-sm > span"
+                  ],
+                  "html": "<span>Program details</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 9.2pt (12.25px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".card-header.bg-transparent.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6 bg-transparent border-0\">My activities</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".col-lg-4 > .card.homepage-card.border-primary-subtle > .card-header.fs-6.fw-medium"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".col-lg-8 > .card.homepage-card.border-primary-subtle > .card-header.fs-6.fw-medium"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">My upcoming events</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(1) > .text-primary > .fw-bold"
+                  ],
+                  "html": "<div class=\"fw-bold\">05 Nov</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(1) > .text-primary > div:nth-child(2)"
+                  ],
+                  "html": "<div>3:00PM</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(2) > .text-primary > .fw-bold"
+                  ],
+                  "html": "<div class=\"fw-bold\">07 Nov</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(2) > .text-primary > div:nth-child(2)"
+                  ],
+                  "html": "<div>1:00PM</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(3) > .text-primary > .fw-bold"
+                  ],
+                  "html": "<div class=\"fw-bold\">09 Nov</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(3) > .text-primary > div:nth-child(2)"
+                  ],
+                  "html": "<div>5:00PM</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".btn-outline-primary.d-block.btn"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary d-block\" href=\"#\">See all events</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            },
+            {
+              "id": "link-name",
+              "impact": "serious",
+              "help": "Links must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".logo-container"
+                  ],
+                  "html": "<a class=\"logo-container p-1\" href=\"#\" rel=\"noreferrer\" target=\"\"><div class=\"logo mx-auto\" style=\"background-image: url(&quot;../assets/img/holberton-logo-full-alx.png&quot;)\"></div></a>",
+                  "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "list",
+              "impact": "serious",
+              "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#sidebar > .px-2"
+                  ],
+                  "html": "<ul class=\"px-2\">",
+                  "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: hr"
+                }
+              ]
+            }
+          ],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".fs-1"
+                  ],
+                  "html": "<span class=\"fs-1 fw-bold text-black\">16%</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".graduation-badge-locked > .graduation-badge-title.text-white.text-uppercase"
+                  ],
+                  "html": "<span class=\"graduation-badge-title position-absolute start-50 top-50 translate-middle text-white fw-medium text-uppercase text-center text-nowrap text-truncate lh-1\" style=\"font-size: 7px; max-width: 40px\">VA-1</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".position-absolute.text-muted:nth-child(4)"
+                  ],
+                  "html": "<div class=\"position-absolute text-muted\" style=\"bottom: 0px; font-size: 0.75rem; left: 5px\">\n                        0\n                      </div>",
+                  "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+                },
+                {
+                  "target": [
+                    ".position-absolute.text-muted:nth-child(5)"
+                  ],
+                  "html": "<div class=\"position-absolute text-muted\" style=\"bottom: 0px; font-size: 0.75rem; right: 0px\">\n                        100\n                      </div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".mt-3"
+                  ],
+                  "html": "<p class=\"text-center text-muted mt-3 mb-0\"><strong>1 of 3</strong> modules completed</p>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    ".mt-3 > strong"
+                  ],
+                  "html": "<strong>1 of 3</strong>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    "span > .btn-outline-primary.btn[href=\"#\"]"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary\" href=\"#\">Start Learning</a>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+                },
+                {
+                  "target": [
+                    ".fs-3.text-black.fw-bold"
+                  ],
+                  "html": "<span class=\"fw-bold text-black fs-3\">11</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".mx-auto > div > div > div > .text-muted"
+                  ],
+                  "html": "<span class=\"text-muted\" style=\"font-size: 0.75rem\">days left</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            }
+          ],
+          "passes": 27
+        },
+        {
+          "state": "open",
+          "violations": [
+            {
+              "id": "aria-progressbar-name",
+              "impact": "serious",
+              "help": "ARIA progressbar nodes must have an accessible name",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-progressbar-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "div[aria-valuemax=\"100\"]"
+                  ],
+                  "html": "<div aria-valuemax=\"100\" aria-valuemin=\"0\" aria-valuenow=\"0.0\" class=\"progress-bar rounded-pill\" role=\"progressbar\" style=\"width: 0%\"></div>",
+                  "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "aria-prohibited-attr",
+              "impact": "serious",
+              "help": "Elements must only use permitted ARIA attributes",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".ms-2"
+                  ],
+                  "html": "<span data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" class=\"ms-2\" aria-label=\"The clock starts at the moment you access your first content of the course.\" data-bs-original-title=\"The clock starts at the moment you access your first content of the course.\">",
+                  "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on \"span\" elements with no valid role attribute."
+                }
+              ]
+            },
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".program-progress-badge"
+                  ],
+                  "html": "<span class=\"align-items-center d-inline-flex fs-sm fw-semibold gap-2 program-progress-badge px-3 py-1 rounded-pill text-nowrap\">\n                <i aria-hidden=\"true\" class=\"fa-solid fa-arrow-trend-up\"></i>\n                0%\n              </span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.31 (foreground color: #db3e3e, background color: #f8d8d8, font size: 9.2pt (12.25px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".btn-sm > span"
+                  ],
+                  "html": "<span>Program details</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 9.2pt (12.25px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".card-header.bg-transparent.fs-6"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6 bg-transparent border-0\">My activities</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".col-lg-4 > .card.homepage-card.border-primary-subtle > .card-header.fs-6.fw-medium"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".col-lg-8 > .card.homepage-card.border-primary-subtle > .card-header.fs-6.fw-medium"
+                  ],
+                  "html": "<div class=\"card-header fw-medium fs-6\">My upcoming events</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(1) > .text-primary > .fw-bold"
+                  ],
+                  "html": "<div class=\"fw-bold\">05 Nov</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(1) > .text-primary > div:nth-child(2)"
+                  ],
+                  "html": "<div>3:00PM</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(2) > .text-primary > .fw-bold"
+                  ],
+                  "html": "<div class=\"fw-bold\">07 Nov</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(2) > .text-primary > div:nth-child(2)"
+                  ],
+                  "html": "<div>1:00PM</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(3) > .text-primary > .fw-bold"
+                  ],
+                  "html": "<div class=\"fw-bold\">09 Nov</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".list-group-item.list-group-item-action.text-reset:nth-child(3) > .text-primary > div:nth-child(2)"
+                  ],
+                  "html": "<div>5:00PM</div>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".btn-outline-primary.d-block.btn"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary d-block\" href=\"#\">See all events</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #db3e3e, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            },
+            {
+              "id": "link-name",
+              "impact": "serious",
+              "help": "Links must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".logo-container"
+                  ],
+                  "html": "<a class=\"logo-container p-1\" href=\"#\" rel=\"noreferrer\" target=\"\"><div class=\"logo mx-auto\" style=\"background-image: url(&quot;../assets/img/holberton-logo-full-alx.png&quot;)\"></div></a>",
+                  "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "list",
+              "impact": "serious",
+              "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#sidebar > .px-2"
+                  ],
+                  "html": "<ul class=\"px-2\">",
+                  "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: hr"
+                }
+              ]
+            }
+          ],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".fs-1"
+                  ],
+                  "html": "<span class=\"fs-1 fw-bold text-black\">16%</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".graduation-badge-locked > .graduation-badge-title.text-white.text-uppercase"
+                  ],
+                  "html": "<span class=\"graduation-badge-title position-absolute start-50 top-50 translate-middle text-white fw-medium text-uppercase text-center text-nowrap text-truncate lh-1\" style=\"font-size: 7px; max-width: 40px\">VA-1</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".position-absolute.text-muted:nth-child(4)"
+                  ],
+                  "html": "<div class=\"position-absolute text-muted\" style=\"bottom: 0px; font-size: 0.75rem; left: 5px\">\n                        0\n                      </div>",
+                  "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+                },
+                {
+                  "target": [
+                    ".position-absolute.text-muted:nth-child(5)"
+                  ],
+                  "html": "<div class=\"position-absolute text-muted\" style=\"bottom: 0px; font-size: 0.75rem; right: 0px\">\n                        100\n                      </div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".mt-3"
+                  ],
+                  "html": "<p class=\"text-center text-muted mt-3 mb-0\"><strong>1 of 3</strong> modules completed</p>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    ".mt-3 > strong"
+                  ],
+                  "html": "<strong>1 of 3</strong>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    "span > .btn-outline-primary.btn[href=\"#\"]"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary\" href=\"#\">Start Learning</a>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+                },
+                {
+                  "target": [
+                    ".fs-3.text-black.fw-bold"
+                  ],
+                  "html": "<span class=\"fw-bold text-black fs-3\">11</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".mx-auto > div > div > div > .text-muted"
+                  ],
+                  "html": "<span class=\"text-muted\" style=\"font-size: 0.75rem\">days left</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            }
+          ],
+          "passes": 31
+        }
+      ]
+    },
+    {
+      "page": "pages/concept-with-navigation.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [
+            {
+              "id": "aria-hidden-focus",
+              "impact": "serious",
+              "help": "ARIA hidden element must not be focusable or contain focusable elements",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#what-is-shaping-the-future-of-va-work"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"what-is-shaping-the-future-of-va-work\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Focusable content should have tabindex=\"-1\", be removed from the DOM, or not be hidden with aria-hidden"
+                },
+                {
+                  "target": [
+                    "#artificial-intelligence-and-the-future-of-va-work"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"artificial-intelligence-and-the-future-of-va-work\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Focusable content should have tabindex=\"-1\", be removed from the DOM, or not be hidden with aria-hidden"
+                },
+                {
+                  "target": [
+                    "#what-clients-are-likely-to-value-more-and-more"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"what-clients-are-likely-to-value-more-and-more\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Focusable content should have tabindex=\"-1\", be removed from the DOM, or not be hidden with aria-hidden"
+                },
+                {
+                  "target": [
+                    "#what-this-means-for-aspiring-virtual-assistants"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"what-this-means-for-aspiring-virtual-assistants\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Focusable content should have tabindex=\"-1\", be removed from the DOM, or not be hidden with aria-hidden"
+                },
+                {
+                  "target": [
+                    "#so-is-the-future-of-va-promising"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"so-is-the-future-of-va-promising\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Focusable content should have tabindex=\"-1\", be removed from the DOM, or not be hidden with aria-hidden"
+                },
+                {
+                  "target": [
+                    "#optional-reads-and-market-signals"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"optional-reads-and-market-signals\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Focusable content should have tabindex=\"-1\", be removed from the DOM, or not be hidden with aria-hidden"
+                },
+                {
+                  "target": [
+                    "#up-next"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"up-next\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Focusable content should have tabindex=\"-1\", be removed from the DOM, or not be hidden with aria-hidden"
+                }
+              ]
+            },
+            {
+              "id": "aria-progressbar-name",
+              "impact": "serious",
+              "help": "ARIA progressbar nodes must have an accessible name",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-progressbar-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".progress-bar"
+                  ],
+                  "html": "<div aria-valuemax=\"100\" aria-valuemin=\"0\" aria-valuenow=\"16\" class=\"progress-bar rounded-pill\" role=\"progressbar\" style=\"width: 16%\"></div>",
+                  "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "a[aria-current=\"true\"] > div > span"
+                  ],
+                  "html": "<span>The Future of the VA Industry</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #ffffff, background color: #db3e3e, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "li:nth-child(1) > b > a[target=\"_blank\"][rel=\"noopener noreferrer\"][href=\"#\"]"
+                  ],
+                  "html": "<a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"5 Things to Expect from the Virtual Assistant Industry in 2025\">5 Things to Expect from the Virtual Assistant Industry in 2025</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #028eca, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "li:nth-child(2) > b > a[target=\"_blank\"][rel=\"noopener noreferrer\"][href=\"#\"]"
+                  ],
+                  "html": "<a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Virtual Assistant Market Growth, Trends and Opportunities\">Virtual Assistant Market Growth, Trends and Opportunities</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #028eca, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "li:nth-child(3) > b > a[target=\"_blank\"][rel=\"noopener noreferrer\"][href=\"#\"]"
+                  ],
+                  "html": "<a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Market Trends in the Virtual Assistant Industry\">Market Trends in the Virtual Assistant Industry</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #028eca, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "li:nth-child(4) > b > a[target=\"_blank\"][rel=\"noopener noreferrer\"][href=\"#\"]"
+                  ],
+                  "html": "<a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Virtual Assistant Market Report Overview\">Virtual Assistant Market Report Overview</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #028eca, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "li:nth-child(5) > b > a[target=\"_blank\"][rel=\"noopener noreferrer\"][href=\"#\"]"
+                  ],
+                  "html": "<a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Human Virtual Assistant Services Market Size | Market Insights, Trends, and Development 2025–2032\">Human Virtual Assistant Services Market Size | Market Insights, Trends, and Development\n                          2025–2032</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #028eca, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-inline-flex > span"
+                  ],
+                  "html": "<span>Mark as complete</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #ffffff, background color: #db3e3e, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            },
+            {
+              "id": "link-name",
+              "impact": "serious",
+              "help": "Links must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".logo-container"
+                  ],
+                  "html": "<a class=\"logo-container p-1\" href=\"#\" rel=\"noreferrer\" target=\"\"><div class=\"logo mx-auto\" style=\"background-image: url(&quot;../assets/img/holberton-logo-full-alx.png&quot;)\"></div></a>",
+                  "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "list",
+              "impact": "serious",
+              "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#sidebar > .px-2"
+                  ],
+                  "html": "<ul class=\"px-2\">",
+                  "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: hr"
+                }
+              ]
+            }
+          ],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".graduation-badge-locked > .graduation-badge-title.text-white.text-uppercase"
+                  ],
+                  "html": "<span class=\"graduation-badge-title position-absolute start-50 top-50 translate-middle text-white fw-medium text-uppercase text-center text-nowrap text-truncate lh-1\" style=\"font-size: 7px; max-width: 26px\">VA-1</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".bold-accent:nth-child(3)"
+                  ],
+                  "html": "<span class=\"bold-accent\">AI software assistants</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            }
+          ],
+          "passes": 28
+        },
+        {
+          "state": "open",
+          "violations": [
+            {
+              "id": "aria-progressbar-name",
+              "impact": "serious",
+              "help": "ARIA progressbar nodes must have an accessible name",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-progressbar-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".progress-bar"
+                  ],
+                  "html": "<div aria-valuemax=\"100\" aria-valuemin=\"0\" aria-valuenow=\"16\" class=\"progress-bar rounded-pill\" role=\"progressbar\" style=\"width: 16%\"></div>",
+                  "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "a[aria-current=\"true\"] > div > span"
+                  ],
+                  "html": "<span>The Future of the VA Industry</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #ffffff, background color: #db3e3e, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "li:nth-child(1) > b > a[target=\"_blank\"][rel=\"noopener noreferrer\"][href=\"#\"]"
+                  ],
+                  "html": "<a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"5 Things to Expect from the Virtual Assistant Industry in 2025\">5 Things to Expect from the Virtual Assistant Industry in 2025</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #028eca, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "li:nth-child(2) > b > a[target=\"_blank\"][rel=\"noopener noreferrer\"][href=\"#\"]"
+                  ],
+                  "html": "<a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Virtual Assistant Market Growth, Trends and Opportunities\">Virtual Assistant Market Growth, Trends and Opportunities</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #028eca, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "li:nth-child(3) > b > a[target=\"_blank\"][rel=\"noopener noreferrer\"][href=\"#\"]"
+                  ],
+                  "html": "<a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Market Trends in the Virtual Assistant Industry\">Market Trends in the Virtual Assistant Industry</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #028eca, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "li:nth-child(4) > b > a[target=\"_blank\"][rel=\"noopener noreferrer\"][href=\"#\"]"
+                  ],
+                  "html": "<a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Virtual Assistant Market Report Overview\">Virtual Assistant Market Report Overview</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #028eca, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    "li:nth-child(5) > b > a[target=\"_blank\"][rel=\"noopener noreferrer\"][href=\"#\"]"
+                  ],
+                  "html": "<a href=\"#\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Human Virtual Assistant Services Market Size | Market Insights, Trends, and Development 2025–2032\">Human Virtual Assistant Services Market Size | Market Insights, Trends, and Development\n                          2025–2032</a>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.66 (foreground color: #028eca, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+                },
+                {
+                  "target": [
+                    ".d-inline-flex > span"
+                  ],
+                  "html": "<span>Mark as complete</span>",
+                  "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #ffffff, background color: #db3e3e, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                }
+              ]
+            },
+            {
+              "id": "link-name",
+              "impact": "serious",
+              "help": "Links must have discernible text",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".logo-container"
+                  ],
+                  "html": "<a class=\"logo-container p-1\" href=\"#\" rel=\"noreferrer\" target=\"\"><div class=\"logo mx-auto\" style=\"background-image: url(&quot;../assets/img/holberton-logo-full-alx.png&quot;)\"></div></a>",
+                  "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+                }
+              ]
+            },
+            {
+              "id": "list",
+              "impact": "serious",
+              "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#sidebar > .px-2"
+                  ],
+                  "html": "<ul class=\"px-2\">",
+                  "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: hr"
+                }
+              ]
+            }
+          ],
+          "incomplete": [
+            {
+              "id": "aria-hidden-focus",
+              "impact": "serious",
+              "help": "ARIA hidden element must not be focusable or contain focusable elements",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "#what-is-shaping-the-future-of-va-work"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"what-is-shaping-the-future-of-va-work\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Check that focusable elements are not tabbable in the current state"
+                },
+                {
+                  "target": [
+                    "#artificial-intelligence-and-the-future-of-va-work"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"artificial-intelligence-and-the-future-of-va-work\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Check that focusable elements are not tabbable in the current state"
+                },
+                {
+                  "target": [
+                    "#what-clients-are-likely-to-value-more-and-more"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"what-clients-are-likely-to-value-more-and-more\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Check that focusable elements are not tabbable in the current state"
+                },
+                {
+                  "target": [
+                    "#what-this-means-for-aspiring-virtual-assistants"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"what-this-means-for-aspiring-virtual-assistants\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Check that focusable elements are not tabbable in the current state"
+                },
+                {
+                  "target": [
+                    "#so-is-the-future-of-va-promising"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"so-is-the-future-of-va-promising\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Check that focusable elements are not tabbable in the current state"
+                },
+                {
+                  "target": [
+                    "#optional-reads-and-market-signals"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"optional-reads-and-market-signals\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Check that focusable elements are not tabbable in the current state"
+                },
+                {
+                  "target": [
+                    "#up-next"
+                  ],
+                  "html": "<a href=\"#\" aria-hidden=\"true\" class=\"anchor\" id=\"up-next\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"\"></a>",
+                  "failureSummary": "Fix all of the following:\n  Check that focusable elements are not tabbable in the current state"
+                }
+              ]
+            },
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".graduation-badge-locked > .graduation-badge-title.text-white.text-uppercase"
+                  ],
+                  "html": "<span class=\"graduation-badge-title position-absolute start-50 top-50 translate-middle text-white fw-medium text-uppercase text-center text-nowrap text-truncate lh-1\" style=\"font-size: 7px; max-width: 26px\">VA-1</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".bold-accent:nth-child(3)"
+                  ],
+                  "html": "<span class=\"bold-accent\">AI software assistants</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            }
+          ],
+          "passes": 32
+        }
+      ]
+    },
+    {
+      "page": "pages/signup.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [],
+          "passes": 27
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    [
+                      "alx-assistant",
+                      "article > p"
+                    ]
+                  ],
+                  "html": "<p>Test reply for the Read aloud control.</p>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    [
+                      "alx-assistant",
+                      "section[aria-label=\"Guided signup\"] > p"
+                    ]
+                  ],
+                  "html": "<p lang=\"en\">Enter your password only in the signup form. Never type or dictate it here. Then return and choose Review and create account.</p>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                }
+              ]
+            }
+          ],
+          "passes": 29
+        }
+      ]
+    },
+    {
+      "page": "pages/login.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [],
+          "passes": 26
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [],
+          "passes": 28
+        }
+      ]
+    },
+    {
+      "page": "pages/enroll.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [],
+          "passes": 20
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [],
+          "passes": 27
+        }
+      ]
+    },
+    {
+      "page": "pages/dashboard-demo.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [],
+          "passes": 25
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [],
+          "passes": 29
+        }
+      ]
+    }
+  ]
+}
