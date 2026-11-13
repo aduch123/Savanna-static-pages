@@ -1,58 +1,163 @@
-# Savanna static pages
+<div align="center">
 
-Three Savanna learner pages, frozen from the **local dev app** into plain HTML + CSS so they can be
-opened offline and used as a reference for front-end and accessibility work.
+# Savanna · Accessible Learning Demo
 
-Open `index.html` (or any file in `pages/`) directly with `file://` — double-clicking works, no
-server needed.
+**A multilingual assistant and human help for the ALX learner experience.**
 
-## What is here
+[Getting started](#getting-started) · [Demo pages](#demo-pages) · [Accessibility](#accessibility) · [Test log](TEST-LOG.md) · [Backend API](https://github.com/aduch123/alx-assistant-api)
 
-| Page | Learner / course | What it shows |
-|------|------------------|----------------|
-| `pages/homepage-v1-paced.html` | Björn Sibanda — **WR 100: Fundamentals of Effective Communication**, cohort F26-SEM-16W (31 Aug – 20 Dec 2026), week 10 of 15 | Courses dropdown (3 courses), week strip with **every week preloaded**, "continue where you left off", immediate deliverables, period progress, overall score (59.56%, "slightly behind"), upcoming events |
-| `pages/homepage-v1-self-paced.html` | Amara Nwosu — **VA-1: VA Foundations & Professional Identity** | Course-progression gauge (16% against the 70% graduation threshold), 1 of 3 modules complete, **working module switcher**, **preloaded programme modal**, pacing boost (11 days left), upcoming events |
-| `pages/concept-with-navigation.html` | Amara Nwosu — concept *"The Future of the VA Industry"* | Curriculum navigation panel (read / current / unread states) beside a full authored concept: callouts, numbered card grid, two-column comparison, icon lists, "Mark as complete". The "Need a Fast Track?" block and the Padlet reflection block are removed on request. |
+</div>
 
+---
 
-## Layout
+## Overview
 
+This project extends three captured Savanna learner pages with an accessible assistant, English and Amharic interface support, and a live connection to human help. Three additional pages demonstrate account creation, course enrolment, and a learner dashboard.
+
+The assistant is delivered as a versioned Web Component. It reads the current page, explains its structure, moves focus to requested sections, recommends courses, and proposes actions for the learner to confirm.
+
+> **Demo scope:** accounts and enrolments use our own demonstration data. They do not create real ALX accounts or enrolments. Amharic translations are drafts awaiting review.
+
+## Features
+
+| Area            | Experience                                                                        |
+| --------------- | --------------------------------------------------------------------------------- |
+| Page assistance | Page orientation, section lists, progress explanations, and focus navigation      |
+| Language        | English/Amharic controls, translated errors, and language-tagged messages         |
+| Guided actions  | Safe form filling and explicit confirmation before registration or enrolment      |
+| Human support   | Live helper messages, reconnect handling, and polling fallback                    |
+| Learner pages   | Sign-up, course selection, and a dashboard of enrolled courses                    |
+| Accessibility   | Keyboard controls, screen-reader semantics, visible focus, and responsive layouts |
+
+## Getting started
+
+### 1. Start the API
+
+Follow the setup instructions in [alx-assistant-api](https://github.com/aduch123/alx-assistant-api). The API should run at `http://localhost:3000`.
+
+Its `ALLOWED_ORIGINS` must include `http://localhost:5000`. Include `http://127.0.0.1:5000` too if you use that hostname.
+
+### 2. Serve this repository
+
+From the project root:
+
+```bash
+npx serve . -l 5000
 ```
-savanna_static_pages/
-├── index.html                 landing page linking the three captures
-├── pages/*.html               the frozen pages (relative links into ../assets)
+
+### 3. Open the demo
+
+Visit **[localhost:5000](http://localhost:5000)**. All seven pages load the assistant automatically. No browser-console setup is required.
+
+Keep both servers running. Use the same browser tab for sign-up, enrolment, and the dashboard: session storage holds the learner session in that tab. If browser storage is blocked, a subsequent page may not retain the session.
+
+The original captured content can be viewed offline. Assistant and account features require the HTTP servers.
+
+## Demo pages
+
+| Page                                                                       | Purpose                                                                     |
+| -------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [`index.html`](index.html)                                                 | Entry point linking to the captured learner pages                           |
+| [`pages/homepage-v1-paced.html`](pages/homepage-v1-paced.html)             | Communication course dashboard with weeks, deliverables, scores, and events |
+| [`pages/homepage-v1-self-paced.html`](pages/homepage-v1-self-paced.html)   | VA course dashboard with progress, modules, and activities                  |
+| [`pages/concept-with-navigation.html`](pages/concept-with-navigation.html) | “The Future of the VA Industry” lesson with curriculum navigation           |
+| [`pages/signup.html`](pages/signup.html)                                   | Demo account creation with accessible validation                            |
+| [`pages/enroll.html`](pages/enroll.html?course=VA-1)                       | Course selection and demo enrolment                                         |
+| [`pages/dashboard-demo.html`](pages/dashboard-demo.html)                   | Learner name, enrolments, and links to course pages                         |
+
+### Suggested walkthrough
+
+1. Ask the assistant **“Where am I?”** and **“What sections are on this page?”**
+2. Choose a section button to move focus into the page.
+3. Switch to Amharic and try the interface controls.
+4. Create a demo account with dummy details, then enrol in a course.
+5. Open the dashboard to see the enrolment.
+6. Choose **Help me now** to try the configured human-support channel.
+
+Mock responses are identified with `[mock]`. A helper must claim a request through the backend's console endpoints or configured Telegram channel before replying.
+
+## Accessibility
+
+### Keyboard
+
+| Key                 | Action                                                                         |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `Tab` / `Shift+Tab` | Move between controls and the host page                                        |
+| `Alt+H`             | Open the assistant and focus its input; close when its input already has focus |
+| `Enter`             | Send a message                                                                 |
+| `Shift+Enter`       | Insert a newline                                                               |
+| `Escape`            | Cancel a focused confirmation or close the assistant                           |
+| `Enter` / `Space`   | Activate the repaired sidebar and course-dropdown controls                     |
+
+The first Tab stop reveals **Skip to main content**. Closing the assistant returns focus to its launcher. Restoring a saved panel does not take focus. A host modal temporarily hides the assistant.
+
+### Semantics and language
+
+- The launcher is a named button with `aria-expanded`; the panel is a labelled, non-modal dialog.
+- Complete replies appear in `role="log"` with `aria-live="polite"`; status text uses `role="status"`.
+- Toggles expose `aria-pressed`. Confirmations use real Yes/Cancel buttons.
+- Messages declare their actual language. Amharic uses `lang="am"`; English course text remains `lang="en"` when a translation is unavailable.
+- An English fallback reply preserves the selected interface language. An explicit language-switch action can change it.
+- The sign-up form supports password managers, pasting, and password reveal. Passwords go to the registration endpoint, never to assistant chat.
+
+### Verification status
+
+Functional, targeted keyboard, responsive-layout, and API checks have been reported successful during implementation. **Formal NVDA, TalkBack, axe, Lighthouse, and measured zoom audits remain pending.** This repository does not claim verified WCAG conformance.
+
+See [TEST-LOG.md](TEST-LOG.md) for the journey matrix, provisional Accessibility Gate, evidence, and remaining checks.
+
+## Integration
+
+Every page includes:
+
+```html
+<script src="http://localhost:3000/widget/assistant.v1.js" defer></script>
+<alx-assistant
+  api="http://localhost:3000/api/v1"
+  language="auto"
+></alx-assistant>
+```
+
+The backend serves the widget. Its Shadow DOM isolates styles from the captured application and Bootstrap. To change the deployment address, update both the script URL and the `api` attribute.
+
+The widget supports `language="auto|en|am"` and a configurable `shortcut` attribute. Use `shortcut="none"` to disable its keyboard shortcut.
+
+## Project structure
+
+```text
+.
+├── index.html
+├── pages/                  # Three learner captures and three new demo pages
 ├── assets/
-   ├── css/                   the application's own stylesheets, unminified — application_alx.css 
-   │                          (sprockets, themed), app.css (esbuild), Google Fonts, Typekit —
-   │                          plus static-page.css, the only one written for these pages
-   ├── fonts/                 76 font files, all referenced by the stylesheets above
-   ├── img/                   51 images: logos, icons, concept artwork, substituted embeds
-   └── js/                    popper.js + bootstrap.bundle.js (the exact files the live app
-                              serves through sprockets) + static-page.js
+│   ├── css/                # Original styles, accessibility patches, demo-page styles
+│   ├── js/                 # Capture interactions and demo forms
+│   ├── fonts/              # Locally bundled fonts
+│   └── img/                # Logos and captured artwork
+├── tools/                  # Idempotent integration and accessibility codemods
+└── TEST-LOG.md              # Shared verification record
 ```
 
-Everything is shared: the three pages point at the same `assets/` tree, nothing is duplicated and
-nothing is minified or gzipped. Captures are additive, so each run ends by dropping assets no
-published page references any more — otherwise the Rive stills from retired week panels would
-pile up run after run.
+## Development
 
-## What still works
+```bash
+node --check assets/js/assistant-pages.js
+node --check assets/js/a11y-fixes.js
+node tools/add-snippet.mjs
+node tools/apply-fixes.mjs
+```
 
-These are live in the frozen pages, driven by `assets/js/static-page.js` against content that was
-pre-rendered during the capture and parked in `<template>` elements (so nothing is duplicated in
-the accessibility tree and no id appears twice):
+On an already-patched checkout, the codemods should report `Unchanged`. Backend tests and widget parity checks run in the API repository.
 
-| Control | Page | Behaviour |
-|---|---|---|
-| **Hamburger** | all | Collapses the sidebar to its 70px icon rail and back, remembered in `localStorage` under `sidebar-collapsed`. It moves the same three things the app does: `body.sidebar-collapsed`, `expanded` on `#sidebar`, and the labels (React wrote `display` inline on each, so `assets/css/static-page.css` overrides them from the body class). |
-| **Week strip** | paced homepage | Every week of the course was rendered server-side at capture time; clicking one swaps the panel below it and moves the `active` state. The chevrons and the scroll-into-view of the selected week are reimplemented from the component's own sidecar JS. |
-| **Score details modal** | paced homepage | Server-rendered per week, so it opens on its own — including the one that arrives with a week you switch to. |
-| **My activities** | self-paced homepage | Each module's activity list was rendered at capture time; clicking a module swaps the panel beside it, as `HomepageSelfPacedActivities.tsx` does. |
-| **Programme modal** | self-paced homepage | "Program details" normally fetches `/dashboards/program_structure.json` on first open — the capture opens it once so the fetched tree is baked in. Its course and module accordions expand and collapse: React renders only the body of an *open* section, so the capture opens each one to materialise its content, pairs every toggle with the element it controls (`data-static-collapse-toggle` / `data-static-collapse-body`) and closes again the ones the app had closed. |
-| **Courses dropdown** | all | Server-rendered markup, so Bootstrap's dropdown opens it with no help: three courses across a programme group and "Other courses". |
-| **Curriculum bar** | all | The bar fixed under the header pads the content by its own height and slides away on scroll down, as `CurrentCurriculumScrollBehavior.tsx` does. |
-| Dropdowns, modals, accordions, collapse, tooltips | all | Bootstrap's own bundle. |
+Use a feature branch and a pull request to this personal fork. Keep `upstream` for the original ALX repository. Avoid reformatting the large captured HTML files; targeted edits keep reviews manageable.
 
-Everything else is inert.
+## Capture notes and limitations
 
+The original pages are plain HTML/CSS captures, not the live ALX application. A small script restores sidebar toggling, week switching, score/programme modals, module selection, curriculum-bar scrolling, and Bootstrap controls. Other original application flows are inert.
 
+The fork adds skip links, keyboard-operated controls, navigation labels, dashboard headings, and browser-translation support. It does not claim to repair all untouched legacy content.
+
+Known limits include inert sidebar links, skipped legacy heading levels, missing original favicon assets, Firefox warnings for bundled Font Awesome fonts, and possible browser-menu conflicts with `Alt+H`. Amharic speech depends on installed fonts and voices; mock replies remain mostly English.
+
+---
+
+Built for the ALX accessibility hackathon · [API repository](https://github.com/aduch123/alx-assistant-api) · [Verification record](TEST-LOG.md)
