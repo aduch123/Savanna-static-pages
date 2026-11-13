@@ -157,7 +157,7 @@ The original pages are plain HTML/CSS captures, not the live ALX application. A 
 
 The fork adds skip links, keyboard-operated controls, navigation labels, dashboard headings, and browser-translation support. It does not claim to repair all untouched legacy content.
 
-Known limits include inert sidebar links, skipped legacy heading levels, missing original favicon assets, Firefox warnings for bundled Font Awesome fonts, and possible browser-menu conflicts with `Alt+H`. Gemini recording/playback requires available API quota; live Amharic transcription and human pronunciation checks remain pending. Mock replies remain mostly English.
+Known limits include inert sidebar links, skipped legacy heading levels, missing original favicon assets, Firefox warnings for bundled Font Awesome fonts, and possible browser-menu conflicts with `Alt+H`. Gemini recording/playback requires available API quota; real microphone and human pronunciation checks remain pending. Mock replies remain mostly English.
 
 ---
 
@@ -168,3 +168,5 @@ Built for the ALX accessibility hackathon · [API repository](https://github.com
 For an existing account, open **Sign in**, enter the email and password, then open the dashboard. Password reveal and paste are supported. Passwords go only to the authentication endpoint; the assistant can prefill a login email and navigate to the page.
 
 In the assistant, expand **Voice**, record a short message and stop. Review the transcript before choosing **Send**. Each reply has **Read aloud**, with **Stop audio** in Voice. Automatic reading is off until enabled. Speech errors leave text available. Provider configuration and unresolved live checks are recorded in the [backend voice contract](https://github.com/aduch123/alx-assistant-api/blob/feat/voice-core/docs/VOICE.md).
+
+On **Sign up**, choose **Guide me through signup**, or ask the assistant to help create an account. Answer one question at a time. Use Pause to ask something else, Resume to continue, and Change controls to correct an answer. The guide saves only name/email/language in the tab draft. Enter the password in the form, then return to review and confirm. Passwords are never collected by the guide. Cancelling the guide keeps the visible form entries.

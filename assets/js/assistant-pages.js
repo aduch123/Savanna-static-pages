@@ -138,6 +138,15 @@
     form.querySelector(".form-status").textContent = message;
   }
   function signup(api) {
+    document
+      .getElementById("start-signup-guide")
+      ?.addEventListener("click", () => {
+        const widget = document.querySelector("alx-assistant");
+        if (widget?.startSignupGuide) void widget.startSignupGuide();
+        else
+          document.getElementById("guide-status").textContent =
+            "The assistant is unavailable. You can use the form below.";
+      });
     const form = document.getElementById("signup-form");
     const password = form.elements.namedItem("password");
     const toggle = document.getElementById("toggle-password");
@@ -190,6 +199,7 @@
         else customElements.whenDefined("alx-assistant").then(notify);
         password.value = "";
         form.hidden = true;
+        document.getElementById("start-signup-guide").hidden = true;
         showSuccess("signup-success");
       } catch (error) {
         showErrors(apiErrors(error));
