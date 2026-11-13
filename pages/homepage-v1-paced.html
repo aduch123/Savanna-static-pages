@@ -47,9 +47,11 @@
     <link rel="stylesheet" href="../assets/css/app.css" media="all" />
 
     <link rel="stylesheet" href="../assets/css/static-page.css" media="all" />
+    <link rel="stylesheet" href="../assets/css/a11y-fixes.css" />
   </head>
 
   <body class="signed_in env_development notranslate" translate="no" data-theme-suffix="_alx">
+    <a class="alx-skip" href="#content">Skip to main content</a>
     <!-- Google Tag Manager (noscript) -->
 
     <!-- End Google Tag Manager (noscript) -->
@@ -168,7 +170,7 @@
       </div>
     </div>
 
-    <main class="content" id="content">
+    <main tabindex="-1" class="content" id="content">
       <div id="layout-bars" style="padding-top: 63px">
         <div
           data-react-class="curriculums/CurrentCurriculumScrollBehavior"
