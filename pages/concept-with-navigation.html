@@ -58,9 +58,7 @@
     <div data-react-class="header/Header" data-react-cache-id="header/Header-0">
       <div class="header d-flex align-items-center position-fixed top-0 w-100" style="z-index: 1000">
         <div class="header-left align-items-center d-flex position-fixed px-2" style="z-index: 2">
-          <div class="hamburger mb-0 p-2 color-primary" style="cursor: pointer; font-size: 24px">
-            <i class="fa-solid fa-fas fa-bars"></i>
-          </div>
+          <button type="button" data-alx-menu aria-label="Main menu" aria-controls="sidebar" aria-expanded="false" class="hamburger mb-0 p-2 color-primary" style="cursor: pointer; font-size: 24px"><i class="fa-solid fa-fas fa-bars"></i></button>
           <a class="logo-container p-1" href="../index.html" aria-label="ALX home" rel="noreferrer" target=""
             ><div
               class="logo mx-auto"
@@ -332,8 +330,9 @@
             <button
               type="button"
               class="btn btn-default"
-              data-bs-toggle="collapse"
+              data-alx-disclosure data-bs-toggle="collapse"
               data-bs-target="#curriculum_navigation_menu"
+              aria-label="Curriculum navigation"
               aria-controls="curriculum_navigation_menu"
               aria-expanded="false"
             >
@@ -369,7 +368,7 @@
                       aria-expanded="false"
                       class="accordion-button"
                       data-bs-target="#accordion-3ac2a35124d36c0517b44bddf497aa36-item-7d4d82fcc504057482a35f094bbff318"
-                      data-bs-toggle="collapse"
+                      data-alx-disclosure data-bs-toggle="collapse"
                       type="button"
                     >
                       <span class="">What is a VA</span>

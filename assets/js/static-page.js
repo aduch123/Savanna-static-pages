@@ -51,6 +51,7 @@
     const apply = (collapsed) => {
       document.body.classList.toggle('sidebar-collapsed', collapsed);
       if (sidebar) sidebar.classList.toggle('expanded', !collapsed);
+      hamburger.setAttribute('aria-expanded', String(!collapsed));
     };
     apply(readCollapsed() || window.innerWidth < 768);
 
@@ -225,6 +226,9 @@
     if (!host || !store) return;
 
     const buttons = [...document.querySelectorAll('button[data-section-index]')];
+    buttons.forEach(button => {
+      button.setAttribute('aria-pressed', String(button.classList.contains('fw-medium')));
+    });
     buttons.forEach((button) => {
       button.addEventListener('click', () => {
         const panel = store.querySelector(`template[data-section-panel="${button.dataset.sectionIndex}"]`);
@@ -234,6 +238,7 @@
         buttons.forEach((other) => {
           const selected = other === button;
           other.classList.toggle('fw-medium', selected);
+          other.setAttribute('aria-pressed', String(selected));
           other.classList.toggle('bg-light', selected);
           other.classList.toggle('fw-light', !selected);
         });
