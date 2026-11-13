@@ -157,7 +157,7 @@ The original pages are plain HTML/CSS captures, not the live ALX application. A 
 
 The fork adds skip links, keyboard-operated controls, navigation labels, dashboard headings, and browser-translation support. It does not claim to repair all untouched legacy content.
 
-Known limits include inert sidebar links, skipped legacy heading levels, missing original favicon assets, Firefox warnings for bundled Font Awesome fonts, and possible browser-menu conflicts with `Alt+H`. Gemini recording/playback requires available API quota; real microphone and human pronunciation checks remain pending. Mock replies remain mostly English.
+Known limits include inert sidebar links, skipped legacy heading levels, missing original favicon assets, Firefox font warnings, and possible browser-menu conflicts with `Alt+H`. Automated axe/reflow results are available in the [evidence bundle](test-results/2026-11-13/README.md); manual and assistive-technology acceptance remains pending. Gemini recording/playback requires available API quota; real microphone and human pronunciation checks remain pending. Mock replies remain mostly English.
 
 ---
 
@@ -170,3 +170,5 @@ For an existing account, open **Sign in**, enter the email and password, then op
 In the assistant, expand **Voice**, record a short message and stop. Review the transcript before choosing **Send**. Each reply has **Read aloud**, with **Stop audio** in Voice. Automatic reading is off until enabled. Speech errors leave text available. Provider configuration and unresolved live checks are recorded in the [backend voice contract](https://github.com/aduch123/alx-assistant-api/blob/feat/voice-core/docs/VOICE.md).
 
 On **Sign up**, choose **Guide me through signup**, or ask the assistant to help create an account. Answer one question at a time. Use Pause to ask something else, Resume to continue, and Change controls to correct an answer. The guide saves only name/email/language in the tab draft. Enter the password in the form, then return to review and confirm. Passwords are never collected by the guide. Cancelling the guide keeps the visible form entries.
+
+Amharic WAV transcription has succeeded, while the browser-format WebM probes returned provider503; live Amharic recording remains an open acceptance issue.

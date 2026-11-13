@@ -23,3 +23,37 @@
 /* WCAG 2.4.7, 2.5.8 */
 .hamburger { display:inline-flex; align-items:center; justify-content:center; min-width:44px; min-height:44px; }
 .hamburger:focus-visible { outline:3px solid #0b3d91; outline-offset:3px; }
+
+
+/* Axe audit: preserve the red theme with readable small text and controls. */
+body:not([data-page]) a:not(.btn):not([aria-current="true"]) { color:#a12626 !important; }
+body:not([data-page]) .text-primary,
+body:not([data-page]) .color-primary,
+body:not([data-page]) .homepage-card .card-header,
+body:not([data-page]) .program-progress-badge { color:#a12626 !important; }
+body:not([data-page]) a[aria-current="true"] { background-color:#a12626 !important; color:#fff !important; }
+body:not([data-page]) .btn-primary,
+body:not([data-page]) .bg-primary { background-color:#a12626 !important; border-color:#a12626 !important; color:#fff !important; }
+body:not([data-page]) .btn-outline-primary {
+  --bs-btn-color:#a12626; --bs-btn-border-color:#a12626;
+  --bs-btn-hover-bg:#a12626; --bs-btn-hover-border-color:#a12626;
+  --bs-btn-active-bg:#a12626; --bs-btn-active-border-color:#a12626;
+}
+body:not([data-page]) .text-warning { color:#805500 !important; }
+body:not([data-page]) code { color:#9d1c60; }
+button[data-bs-toggle="tooltip"] { min-height:44px; min-width:44px; background:transparent; border:0; color:#1a1a1a; }
+
+body:not([data-page]) a:not(.btn) { text-decoration:underline; text-underline-offset:.15em; }
+
+/* Long curriculum names and lesson card grids reflow at320 CSS px. */
+@media (max-width:40rem) {
+  #student-current-curriculum { padding-inline:1rem !important; }
+  #student-switch-curriculum,
+  #student-switch-curriculum .btn-group,
+  #student-switch-curriculum [data-bs-toggle="dropdown"],
+  #student-switch-curriculum .curriculum-switcher-label { min-width:0; max-width:100%; }
+  #student-switch-curriculum .flex-shrink-0 { flex-shrink:1 !important; }
+  #student-switch-curriculum .text-truncate { white-space:normal; overflow-wrap:anywhere; }
+  main [style*="grid-template-columns: repeat(2, 1fr)"] { grid-template-columns:minmax(0,1fr) !important; }
+  main { min-width:0; overflow-wrap:anywhere; }
+}

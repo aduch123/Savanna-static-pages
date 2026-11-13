@@ -1,0 +1,561 @@
+{
+  "at": "2026-11-13T14:59:12.393Z",
+  "fixture": "Offline API, real page/widget DOM; desktop Chrome emulation",
+  "mode": "axe WCAG tags",
+  "reports": [
+    {
+      "page": "index.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [],
+          "passes": 19
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [],
+          "passes": 26
+        }
+      ]
+    },
+    {
+      "page": "pages/homepage-v1-paced.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "a[data-track-id=\"399\"] > span"
+                  ],
+                  "html": "<span>Week 8</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"400\"] > span"
+                  ],
+                  "html": "<span>Week 9</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[aria-current=\"page\"] > span"
+                  ],
+                  "html": "<span>Week 10</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"402\"] > span"
+                  ],
+                  "html": "<span>Week 11</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"403\"] > span"
+                  ],
+                  "html": "<span>Week 12</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"404\"] > span"
+                  ],
+                  "html": "<span>Week 13</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"405\"] > span"
+                  ],
+                  "html": "<span>Week 14</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"406\"] > span"
+                  ],
+                  "html": "<span>Week 15</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    ".gradient-overlay > h5"
+                  ],
+                  "html": "<h5>Intro to Week 10</h5>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                },
+                {
+                  "target": [
+                    ".btn-primary"
+                  ],
+                  "html": "<a class=\"btn btn-primary d-block\" href=\"#\">Resume</a>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(1) > .gap-xl-5.gap-3.d-flex > .flex-column.d-flex.align-items-center > .position-relative > .top-50.start-50.translate-middle"
+                  ],
+                  "html": "<div class=\"position-absolute top-50 start-50 translate-middle fw-semibold\">0%</div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(2) > .gap-xl-5.gap-3.d-flex > .flex-column.d-flex.align-items-center > .position-relative > .top-50.start-50.translate-middle"
+                  ],
+                  "html": "<div class=\"position-absolute top-50 start-50 translate-middle fw-semibold\">0%</div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            }
+          ],
+          "passes": 29
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    "a[data-track-id=\"394\"] > span"
+                  ],
+                  "html": "<span>Week 3</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"395\"] > span"
+                  ],
+                  "html": "<span>Week 4</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    "a[data-track-id=\"396\"] > span"
+                  ],
+                  "html": "<span>Week 5</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    ".gradient-overlay > h5"
+                  ],
+                  "html": "<h5>Intro to Week 10</h5>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                },
+                {
+                  "target": [
+                    ".btn-primary"
+                  ],
+                  "html": "<a class=\"btn btn-primary d-block\" href=\"#\">Resume</a>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(1) > .gap-xl-5.gap-3.d-flex > .flex-column.d-flex.align-items-center > .position-relative > .top-50.start-50.translate-middle"
+                  ],
+                  "html": "<div class=\"position-absolute top-50 start-50 translate-middle fw-semibold\">0%</div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".list-group-item:nth-child(2) > .gap-xl-5.gap-3.d-flex > .flex-column.d-flex.align-items-center > .position-relative > .top-50.start-50.translate-middle"
+                  ],
+                  "html": "<div class=\"position-absolute top-50 start-50 translate-middle fw-semibold\">0%</div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            }
+          ],
+          "passes": 32
+        }
+      ]
+    },
+    {
+      "page": "pages/homepage-v1-self-paced.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".fs-1"
+                  ],
+                  "html": "<span class=\"fs-1 fw-bold text-black\">16%</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".graduation-badge-locked > .graduation-badge-title.text-white.text-uppercase"
+                  ],
+                  "html": "<span class=\"graduation-badge-title position-absolute start-50 top-50 translate-middle text-white fw-medium text-uppercase text-center text-nowrap text-truncate lh-1\" style=\"font-size: 7px; max-width: 40px\">VA-1</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".position-absolute.text-muted:nth-child(4)"
+                  ],
+                  "html": "<div class=\"position-absolute text-muted\" style=\"bottom: 0px; font-size: 0.75rem; left: 5px\">\n                        0\n                      </div>",
+                  "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+                },
+                {
+                  "target": [
+                    ".position-absolute.text-muted:nth-child(5)"
+                  ],
+                  "html": "<div class=\"position-absolute text-muted\" style=\"bottom: 0px; font-size: 0.75rem; right: 0px\">\n                        100\n                      </div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".mt-3"
+                  ],
+                  "html": "<p class=\"text-center text-muted mt-3 mb-0\"><strong>1 of 3</strong> modules completed</p>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    ".mt-3 > strong"
+                  ],
+                  "html": "<strong>1 of 3</strong>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    "span > .btn-outline-primary.btn[href=\"#\"]"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary\" href=\"#\">Start Learning</a>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+                },
+                {
+                  "target": [
+                    ".fs-3.text-black.fw-bold"
+                  ],
+                  "html": "<span class=\"fw-bold text-black fs-3\">11</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".mx-auto > div > div > div > .text-muted"
+                  ],
+                  "html": "<span class=\"text-muted\" style=\"font-size: 0.75rem\">days left</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            }
+          ],
+          "passes": 29
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".fs-1"
+                  ],
+                  "html": "<span class=\"fs-1 fw-bold text-black\">16%</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".graduation-badge-locked > .graduation-badge-title.text-white.text-uppercase"
+                  ],
+                  "html": "<span class=\"graduation-badge-title position-absolute start-50 top-50 translate-middle text-white fw-medium text-uppercase text-center text-nowrap text-truncate lh-1\" style=\"font-size: 7px; max-width: 40px\">VA-1</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".position-absolute.text-muted:nth-child(4)"
+                  ],
+                  "html": "<div class=\"position-absolute text-muted\" style=\"bottom: 0px; font-size: 0.75rem; left: 5px\">\n                        0\n                      </div>",
+                  "failureSummary": "Fix any of the following:\n  Element content is too short to determine if it is actual text content"
+                },
+                {
+                  "target": [
+                    ".position-absolute.text-muted:nth-child(5)"
+                  ],
+                  "html": "<div class=\"position-absolute text-muted\" style=\"bottom: 0px; font-size: 0.75rem; right: 0px\">\n                        100\n                      </div>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".mt-3"
+                  ],
+                  "html": "<p class=\"text-center text-muted mt-3 mb-0\"><strong>1 of 3</strong> modules completed</p>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    ".mt-3 > strong"
+                  ],
+                  "html": "<strong>1 of 3</strong>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+                },
+                {
+                  "target": [
+                    "span > .btn-outline-primary.btn[href=\"#\"]"
+                  ],
+                  "html": "<a class=\"btn btn-outline-primary\" href=\"#\">Start Learning</a>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+                },
+                {
+                  "target": [
+                    ".fs-3.text-black.fw-bold"
+                  ],
+                  "html": "<span class=\"fw-bold text-black fs-3\">11</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".mx-auto > div > div > div > .text-muted"
+                  ],
+                  "html": "<span class=\"text-muted\" style=\"font-size: 0.75rem\">days left</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            }
+          ],
+          "passes": 33
+        }
+      ]
+    },
+    {
+      "page": "pages/concept-with-navigation.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".graduation-badge-locked > .graduation-badge-title.text-white.text-uppercase"
+                  ],
+                  "html": "<span class=\"graduation-badge-title position-absolute start-50 top-50 translate-middle text-white fw-medium text-uppercase text-center text-nowrap text-truncate lh-1\" style=\"font-size: 7px; max-width: 26px\">VA-1</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".bold-accent:nth-child(3)"
+                  ],
+                  "html": "<span class=\"bold-accent\">AI software assistants</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            }
+          ],
+          "passes": 29
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    ".graduation-badge-locked > .graduation-badge-title.text-white.text-uppercase"
+                  ],
+                  "html": "<span class=\"graduation-badge-title position-absolute start-50 top-50 translate-middle text-white fw-medium text-uppercase text-center text-nowrap text-truncate lh-1\" style=\"font-size: 7px; max-width: 26px\">VA-1</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+                },
+                {
+                  "target": [
+                    ".bold-accent:nth-child(3)"
+                  ],
+                  "html": "<span class=\"bold-accent\">AI software assistants</span>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            }
+          ],
+          "passes": 33
+        }
+      ]
+    },
+    {
+      "page": "pages/signup.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [],
+          "passes": 27
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "impact": "serious",
+              "help": "Elements must meet minimum color contrast ratio thresholds",
+              "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "nodes": [
+                {
+                  "target": [
+                    [
+                      "alx-assistant",
+                      "article > p"
+                    ]
+                  ],
+                  "html": "<p>Test reply for the Read aloud control.</p>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                },
+                {
+                  "target": [
+                    [
+                      "alx-assistant",
+                      "section[aria-label=\"Guided signup\"] > p"
+                    ]
+                  ],
+                  "html": "<p lang=\"en\">Enter your password only in the signup form. Never type or dictate it here. Then return and choose Review and create account.</p>",
+                  "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+                }
+              ]
+            }
+          ],
+          "passes": 29
+        }
+      ]
+    },
+    {
+      "page": "pages/login.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [],
+          "passes": 26
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [],
+          "passes": 28
+        }
+      ]
+    },
+    {
+      "page": "pages/enroll.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [],
+          "passes": 20
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [],
+          "passes": 27
+        }
+      ]
+    },
+    {
+      "page": "pages/dashboard-demo.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "violations": [],
+          "incomplete": [],
+          "passes": 25
+        },
+        {
+          "state": "open",
+          "violations": [],
+          "incomplete": [],
+          "passes": 29
+        }
+      ]
+    }
+  ]
+}

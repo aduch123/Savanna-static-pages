@@ -1,0 +1,725 @@
+{
+  "at": "2026-11-13T14:59:29.951Z",
+  "fixture": "Offline API, real page/widget DOM; desktop Chrome emulation",
+  "mode": "CSS viewport reflow",
+  "reports": [
+    {
+      "page": "index.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        320,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 320,
+          "panelRight": 320,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "index.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 392,
+          "panelRight": 1240,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/homepage-v1-paced.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        320,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-success flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item",
+              "width": 99
+            },
+            {
+              "tag": "I",
+              "id": "",
+              "class": "fa-solid fa-circle-check fa-fw",
+              "width": 18
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "class": "",
+              "width": 50
+            },
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-success flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item",
+              "width": 99
+            },
+            {
+              "tag": "I",
+              "id": "",
+              "class": "fa-solid fa-circle-check fa-fw",
+              "width": 18
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "class": "",
+              "width": 50
+            },
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-success flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item",
+              "width": 100
+            },
+            {
+              "tag": "I",
+              "id": "",
+              "class": "fa-solid fa-circle-check fa-fw",
+              "width": 18
+            }
+          ],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 320,
+          "panelRight": 320,
+          "offenders": [
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-success flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item",
+              "width": 99
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "class": "",
+              "width": 50
+            },
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-success flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item",
+              "width": 100
+            },
+            {
+              "tag": "I",
+              "id": "",
+              "class": "fa-solid fa-circle-check fa-fw",
+              "width": 18
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "class": "",
+              "width": 51
+            },
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-primary flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item",
+              "width": 100
+            },
+            {
+              "tag": "I",
+              "id": "",
+              "class": "fa-solid fa-circle-dot fa-fw",
+              "width": 18
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "class": "",
+              "width": 51
+            }
+          ],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/homepage-v1-paced.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-primary flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item",
+              "width": 100
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "class": "",
+              "width": 51
+            },
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-primary flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item",
+              "width": 100
+            },
+            {
+              "tag": "I",
+              "id": "",
+              "class": "fa-solid fa-circle-dot fa-fw",
+              "width": 18
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "class": "",
+              "width": 51
+            },
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-primary flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item active fw-semibold",
+              "width": 106
+            },
+            {
+              "tag": "I",
+              "id": "",
+              "class": "fa-solid fa-circle-dot fa-fw",
+              "width": 18
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "class": "",
+              "width": 57
+            }
+          ],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 392,
+          "panelRight": 1240,
+          "offenders": [
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-primary flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item",
+              "width": 100
+            },
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-primary flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item",
+              "width": 100
+            },
+            {
+              "tag": "I",
+              "id": "",
+              "class": "fa-solid fa-circle-dot fa-fw",
+              "width": 18
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "class": "",
+              "width": 51
+            },
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-primary flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item active fw-semibold",
+              "width": 106
+            },
+            {
+              "tag": "I",
+              "id": "",
+              "class": "fa-solid fa-circle-dot fa-fw",
+              "width": 18
+            },
+            {
+              "tag": "SPAN",
+              "id": "",
+              "class": "",
+              "width": 57
+            },
+            {
+              "tag": "A",
+              "id": "",
+              "class": "nav-link link-secondary flex-shrink-0 d-inline-flex align-items-center gap-1 position-relative scroll-region__item",
+              "width": 79
+            }
+          ],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/homepage-v1-self-paced.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        320,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [
+            {
+              "tag": "BUTTON",
+              "id": "",
+              "class": "align-items-center btn btn-outline-primary btn-sm d-inline-flex flex-shrink-0 gap-2 rounded-pill text-nowrap",
+              "width": 156
+            },
+            {
+              "tag": "I",
+              "id": "",
+              "class": "fa-solid fa-angle-down fa-fw",
+              "width": 15
+            }
+          ],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 320,
+          "panelRight": 320,
+          "offenders": [
+            {
+              "tag": "BUTTON",
+              "id": "",
+              "class": "align-items-center btn btn-outline-primary btn-sm d-inline-flex flex-shrink-0 gap-2 rounded-pill text-nowrap",
+              "width": 156
+            },
+            {
+              "tag": "I",
+              "id": "",
+              "class": "fa-solid fa-angle-down fa-fw",
+              "width": 15
+            }
+          ],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/homepage-v1-self-paced.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 392,
+          "panelRight": 1240,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/concept-with-navigation.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        320,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 320,
+          "panelRight": 320,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/concept-with-navigation.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 392,
+          "panelRight": 1240,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/signup.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        320,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 320,
+          "panelRight": 320,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/signup.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 392,
+          "panelRight": 1240,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/login.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        320,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 320,
+          "panelRight": 320,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/login.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 392,
+          "panelRight": 1240,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/enroll.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        320,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 320,
+          "panelRight": 320,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/enroll.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 1280,
+          "viewportWidth": 1280,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 1280,
+          "viewportWidth": 1280,
+          "panelWidth": 392,
+          "panelRight": 1270,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/dashboard-demo.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        320,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 320,
+          "viewportWidth": 320,
+          "panelWidth": 320,
+          "panelRight": 320,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "page": "pages/dashboard-demo.html",
+      "axe": "4.14.0",
+      "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "viewport": [
+        1280,
+        800
+      ],
+      "states": [
+        {
+          "state": "closed",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 0,
+          "panelRight": 0,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "state": "open",
+          "documentWidth": 1265,
+          "viewportWidth": 1265,
+          "panelWidth": 392,
+          "panelRight": 1240,
+          "offenders": [],
+          "violations": [],
+          "incomplete": []
+        }
+      ]
+    }
+  ]
+}
