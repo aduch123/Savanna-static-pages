@@ -21,7 +21,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="" />
-    <meta name="google" content="notranslate" />
 
     <!-- Google Tag Manager -->
 
@@ -47,9 +46,11 @@
     <link rel="stylesheet" href="../assets/css/app.css" media="all" />
 
     <link rel="stylesheet" href="../assets/css/static-page.css" media="all" />
+    <link rel="stylesheet" href="../assets/css/a11y-fixes.css" />
   </head>
 
-  <body class="signed_in env_development notranslate" translate="no" data-theme-suffix="_alx">
+  <body class="signed_in env_development" data-theme-suffix="_alx">
+    <a class="alx-skip" href="#content">Skip to main content</a>
     <!-- Google Tag Manager (noscript) -->
 
     <!-- End Google Tag Manager (noscript) -->
@@ -73,7 +74,7 @@
         class="sidebar navigation bg-white border-end position-fixed overflow-scroll bottom-0 start-0 expanded"
         id="sidebar"
         style="background-color: rgb(255, 255, 255); border-color: rgb(238, 238, 238)"
-      >
+       role="navigation" aria-label="Main">
         <ul class="px-2">
           <li>
             <a href="#" rel="noreferrer" target="_self"
@@ -138,7 +139,7 @@
       </div>
     </div>
 
-    <main class="content" id="content">
+    <main tabindex="-1" class="content" id="content">
       <div id="layout-bars" style="padding-top: 63px">
         <div
           data-react-class="curriculums/CurrentCurriculumScrollBehavior"
@@ -1288,6 +1289,7 @@ alert(example);
     <script src="../assets/js/popper.js"></script>
     <script src="../assets/js/bootstrap.bundle.js"></script>
     <script src="../assets/js/static-page.js"></script>
+    <script src="../assets/js/a11y-fixes.js"></script>
   <script src="http://localhost:3000/widget/assistant.v1.js" defer></script>
   <alx-assistant api="http://localhost:3000/api/v1" language="auto"></alx-assistant>
   </body>
