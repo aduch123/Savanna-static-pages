@@ -128,7 +128,7 @@
     return {
       general:
         error.status === 401
-          ? "Your session has expired. Please create a demo account again in this tab."
+          ? "Your session has expired. Please sign in again in this tab."
           : "Something went wrong. Please try again. Your details have been kept.",
     };
   }
@@ -193,6 +193,68 @@
         showSuccess("signup-success");
       } catch (error) {
         showErrors(apiErrors(error));
+      } finally {
+        busy(form, false);
+      }
+    });
+  }
+  function login(api) {
+    const form = document.getElementById("login-form");
+    const password = form.elements.namedItem("password");
+    const toggle = document.getElementById("toggle-password");
+    toggle.addEventListener("click", () => {
+      const reveal = password.type === "password";
+      password.type = reveal ? "text" : "password";
+      toggle.setAttribute("aria-pressed", String(reveal));
+      toggle.textContent = reveal ? "Hide password" : "Show password";
+    });
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (form.dataset.busy === "true") return;
+      const email = form.elements.namedItem("email");
+      const errors = {};
+      if (!email.value.trim() || email.validity.typeMismatch)
+        errors.email = hints.email;
+      if (!password.value || password.value.length > 72)
+        errors.password = "Enter your existing password (up to 72 characters).";
+      if (Object.keys(errors).length) {
+        showErrors(errors);
+        return;
+      }
+      clearErrors();
+      busy(form, true, "Signing in…");
+      try {
+        // Password goes only to auth/login, never chat, speech or history.
+        const data = await request(api, "/auth/login", {
+          email: email.value.trim(),
+          password: password.value,
+        });
+        try {
+          sessionStorage.setItem("alx.token", data.token);
+          sessionStorage.setItem(
+            "alx.user",
+            JSON.stringify({ id: data.user.id, name: data.user.name }),
+          );
+        } catch {
+          /* The live widget can still retain this tab's session. */
+        }
+        const notify = () =>
+          document.querySelector("alx-assistant")?.notifySignedIn?.(data);
+        if (customElements.get("alx-assistant")) notify();
+        else customElements.whenDefined("alx-assistant").then(notify);
+        password.value = "";
+        form.hidden = true;
+        showSuccess("login-success");
+      } catch (error) {
+        password.value = "";
+        showErrors(
+          error.status === 401
+            ? {
+                general:
+                  "The email or password is incorrect. Please try again.",
+              }
+            : apiErrors(error),
+        );
       } finally {
         busy(form, false);
       }
@@ -345,6 +407,7 @@
     }
     const page = document.body.dataset.page;
     if (page === "signup") signup(api);
+    if (page === "login") login(api);
     if (page === "enroll") void enroll(api);
     if (page === "dashboard-demo") void dashboard(api);
   }

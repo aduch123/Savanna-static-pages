@@ -96,3 +96,9 @@ Known limits to evaluate: inert legacy sidebar links, skipped legacy heading lev
 - Draft Amharic/native review disclosure: Required
 - Three consecutive successful rehearsals: 0 / 3 recorded
 - Backup recording and final repository tags: Pending
+
+## Revised scope: login and voice implementation checks · 2026-11-13
+
+Automated Chrome offline fixtures on Ubuntu: login at1280×800 and360×800 passed empty validation, incorrect-credential handling, successful session integration, password exclusion from page context/history, and horizontal layout. Voice at1280×800,360×800 and1280×450 passed editable transcript/explicit Send/language/cleanup checks with fake microphone and provider responses. Reproducible scripts live in the backend: scripts/login-browser-smoke.mjs and scripts/voice-browser-smoke.mjs (Node22+/Chrome; login requires sibling static checkout).
+
+These are functional automation results, not formal assistive-technology or real microphone evidence. Login adds an eighth page to the revised audit scope; its closed/open panel, axe, screen-reader and400% checks remain pending. Amharic STT, pronunciation, actual microphone and Android checks remain pending. One-question signup recovery remains pending R5 work.

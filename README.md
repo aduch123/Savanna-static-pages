@@ -12,7 +12,7 @@
 
 ## Overview
 
-This project extends three captured Savanna learner pages with an accessible assistant, English and Amharic interface support, and a live connection to human help. Three additional pages demonstrate account creation, course enrolment, and a learner dashboard.
+This project extends three captured Savanna learner pages with an accessible assistant, English and Amharic interface support, and a live connection to human help. Four additional pages demonstrate account creation, returning-user sign-in, course enrolment, and a learner dashboard.
 
 The assistant is delivered as a versioned Web Component. It reads the current page, explains its structure, moves focus to requested sections, recommends courses, and proposes actions for the learner to confirm.
 
@@ -26,7 +26,7 @@ The assistant is delivered as a versioned Web Component. It reads the current pa
 | Language        | English/Amharic controls, translated errors, and language-tagged messages         |
 | Guided actions  | Safe form filling and explicit confirmation before registration or enrolment      |
 | Human support   | Live helper messages, reconnect handling, and polling fallback                    |
-| Learner pages   | Sign-up, course selection, and a dashboard of enrolled courses                    |
+| Learner pages   | Sign-up, sign-in, course selection, and a dashboard of enrolled courses                    |
 | Accessibility   | Keyboard controls, screen-reader semantics, visible focus, and responsive layouts |
 
 ## Getting started
@@ -47,7 +47,7 @@ npx serve . -l 5000
 
 ### 3. Open the demo
 
-Visit **[localhost:5000](http://localhost:5000)**. All seven pages load the assistant automatically. No browser-console setup is required.
+Visit **[localhost:5000](http://localhost:5000)**. All eight pages load the assistant automatically. No browser-console setup is required.
 
 Keep both servers running. Use the same browser tab for sign-up, enrolment, and the dashboard: session storage holds the learner session in that tab. If browser storage is blocked, a subsequent page may not retain the session.
 
@@ -62,6 +62,7 @@ The original captured content can be viewed offline. Assistant and account featu
 | [`pages/homepage-v1-self-paced.html`](pages/homepage-v1-self-paced.html)   | VA course dashboard with progress, modules, and activities                  |
 | [`pages/concept-with-navigation.html`](pages/concept-with-navigation.html) | “The Future of the VA Industry” lesson with curriculum navigation           |
 | [`pages/signup.html`](pages/signup.html)                                   | Demo account creation with accessible validation                            |
+| [`pages/login.html`](pages/login.html) | Sign in to an existing demo account; password stays in the form |
 | [`pages/enroll.html`](pages/enroll.html?course=VA-1)                       | Course selection and demo enrolment                                         |
 | [`pages/dashboard-demo.html`](pages/dashboard-demo.html)                   | Learner name, enrolments, and links to course pages                         |
 
@@ -156,8 +157,14 @@ The original pages are plain HTML/CSS captures, not the live ALX application. A 
 
 The fork adds skip links, keyboard-operated controls, navigation labels, dashboard headings, and browser-translation support. It does not claim to repair all untouched legacy content.
 
-Known limits include inert sidebar links, skipped legacy heading levels, missing original favicon assets, Firefox warnings for bundled Font Awesome fonts, and possible browser-menu conflicts with `Alt+H`. Amharic speech depends on installed fonts and voices; mock replies remain mostly English.
+Known limits include inert sidebar links, skipped legacy heading levels, missing original favicon assets, Firefox warnings for bundled Font Awesome fonts, and possible browser-menu conflicts with `Alt+H`. Gemini recording/playback requires available API quota; live Amharic transcription and human pronunciation checks remain pending. Mock replies remain mostly English.
 
 ---
 
 Built for the ALX accessibility hackathon · [API repository](https://github.com/aduch123/alx-assistant-api) · [Verification record](TEST-LOG.md)
+
+## Voice and returning learners
+
+For an existing account, open **Sign in**, enter the email and password, then open the dashboard. Password reveal and paste are supported. Passwords go only to the authentication endpoint; the assistant can prefill a login email and navigate to the page.
+
+In the assistant, expand **Voice**, record a short message and stop. Review the transcript before choosing **Send**. Each reply has **Read aloud**, with **Stop audio** in Voice. Automatic reading is off until enabled. Speech errors leave text available. Provider configuration and unresolved live checks are recorded in the [backend voice contract](https://github.com/aduch123/alx-assistant-api/blob/feat/voice-core/docs/VOICE.md).
