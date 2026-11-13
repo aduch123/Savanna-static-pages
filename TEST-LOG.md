@@ -119,3 +119,7 @@ Guided signup offline Chrome checks at1280×800 and360×800 passed field-by-fiel
 Fixed measured defects: unreadable red/link/warning text; unnamed logo links/progress bars; focusable hidden lesson anchors; invalid sidebar separators; an unlabelled tooltip span; long curriculum selector/card-grid overflow. The widget now follows visual width as well as height, retaining visible controls even when a host layout expands wider than the physical viewport.
 
 Backend build/full199 tests,126-key parity and real Chrome offline voice/login/guide checks passed. Live synthetic English WebM transcription and stateless TTS succeeded; Amharic WAV succeeded earlier, but two Amharic WebM attempts returned provider503. Amharic microphone readiness is therefore pending, not accepted. No further cloud probes or billing changes.
+
+## Amharic WebM fix verified · 2026-11-13
+
+Switched the backend from a general chat model to Gemini3.5Transcribe (documented free-tier am-ET/WebM support). Previously failing Amharic WebM passed live, and English passed too. The real widget → HTTP API → provider → editable Amharic transcript check passed with one upload, no chat auto-send and microphone-track cleanup. The test supplies a prerecorded sample instead of a physical microphone. See backend scripts/speech-browser-smoke.mjs and docs/VOICE.md. Real hardware/Android/native-speaker and accessibility acceptance remain pending. Frontend source and the saved axe source hashes are unchanged.

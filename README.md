@@ -171,4 +171,4 @@ In the assistant, expand **Voice**, record a short message and stop. Review the 
 
 On **Sign up**, choose **Guide me through signup**, or ask the assistant to help create an account. Answer one question at a time. Use Pause to ask something else, Resume to continue, and Change controls to correct an answer. The guide saves only name/email/language in the tab draft. Enter the password in the form, then return to review and confirm. Passwords are never collected by the guide. Cancelling the guide keeps the visible form entries.
 
-Amharic WAV transcription has succeeded, while the browser-format WebM probes returned provider503; live Amharic recording remains an open acceptance issue.
+The Amharic WebM failure was resolved for the tested sample by switching the backend to Google’s dedicated transcription model. Real microphone, Android and native-speaker acceptance remain pending.
