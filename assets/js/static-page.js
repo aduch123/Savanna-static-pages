@@ -51,6 +51,7 @@
     const apply = (collapsed) => {
       document.body.classList.toggle('sidebar-collapsed', collapsed);
       if (sidebar) sidebar.classList.toggle('expanded', !collapsed);
+      hamburger.setAttribute('aria-expanded', String(!collapsed));
     };
     apply(readCollapsed() || window.innerWidth < 768);
 
